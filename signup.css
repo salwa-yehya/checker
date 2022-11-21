@@ -1,0 +1,132 @@
+
+body {
+    padding:0 ;
+    margin: 0;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+   background-image: url(Signup&Login.jpg);
+   background-repeat:no-repeat ;
+   background-size:cover;
+ 
+}
+form {
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50% , -50%);
+   width: 30em;
+   height:33em;
+   background: rgba(0, 0,0,.7);
+   border-radius:1em;
+   box-sizing:border-box ;
+}
+h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 2.8em;
+}
+input [type="text"],[type="text" ],[type="email"],[type="password"]{
+position: absolute;
+outline: none;
+border : none;
+width:25em;
+height: 2em;
+border-bottom: .1em solid #0094ff;
+background: none ;
+padding: .6em;
+color :#fff;
+}
+#signin1  
+{
+    top:10.9em;
+    left: 5em;
+
+}
+#sigh1{
+    position: absolute;
+    outline: none;
+    border : none;
+    width:25em;
+    height: 2em;
+    background: none ;
+    padding: .6em;
+    color :#fff;
+    top:10.5em;
+    left: 8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#signin2
+{
+    top:15.25em;
+    left: 5em;
+} 
+#sigh2{
+    position: absolute;
+    outline: none;
+    border : none;
+    width:25em;
+    height: 2em;
+    background: none ;
+    padding: .6em;
+    color :#fff;
+    top:14em;
+    left: 8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#signin3
+{
+    top:19.6em;
+    left: 5em;
+}
+#sigh3{
+    position: absolute;
+    outline: none;
+    border : none;
+    width:25em;
+    height: 2em;
+    background: none ;
+    padding: .6em;
+    color :#fff;
+    top:17.8em;
+    left: 6em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#signin4
+{
+    top:24em;
+    left: 5em;
+
+}
+#sigh4{
+    position: absolute;
+    outline: none;
+    border : none;
+    width:25em;
+    height: 2em;
+    background: none ;
+    padding: .6em;
+    color :#fff;
+    top:21.5em;
+    left: 8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button[value="register"]{
+    position: absolute;
+    top : 30em ;
+    left : 11.5em;
+    width: 10.1em;
+    height: 3.18em ;
+    background: #0077ff;
+    border: none ;
+    outline: none;
+    color :#fff;
+    border-radius: .9em;
+    font-size: .9em;
+}
+button[value="register"]:hover{
+    background: #fff;
+    color: #0077ff;
+    cursor: pointer;
+}
+

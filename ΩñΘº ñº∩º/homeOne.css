@@ -1,0 +1,136 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+   background-image: url(Home_page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  
+  
+  
+  }
+  
+  
+  img{
+    width: 100%;
+    height: 100vh; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  
+    
+  }
+  
+  
+  .cont{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.662);
+    width: 100%;
+    height: 100vh; 
+  
+  
+  
+  }
+  
+  
+  .text{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5vh;
+    /* position: absolute; */
+  /* margin-top: -40em; */
+  /* margin-left: 40em;*/
+  font-size: 30px; 
+  color: aliceblue;
+  
+  
+  
+  }
+  
+  .btnn button{
+    width: 200px;
+  
+  
+  
+  
+  
+  }
+  
+  #btn-primary,#btn-outline-primary{
+  
+  color: aliceblue;
+  
+  }
+  
+  
+  .Pone,.Ptow{
+    font-family: 'Rubik Glitch', cursive;
+  
+    
+  }
+  
+  #wlc{
+    font-family: 'Titan One', cursive;
+    font-size: 30px;
+  
+  }
+  
+  
+  #wl{
+    font-family: 'Titan One', cursive;
+  font-size: 45px;
+  
+  }
+  
+  #Pone{
+  
+    /* font-family: 'Rubik Glitch', cursive; */
+    font-family: 'Titan One', cursive;
+  font-size: 35px;
+  }
+  
+  #Ptow{
+    font-family: 'Titan One', cursive;
+    font-size: 45px;
+  /* color: #0d6efd; */
+  
+  }
+  
+  #spanch{
+    font-family: 'Rubik Glitch', cursive;
+   /* color: #0a58ca;  */
+  /* color: #0b5ed7; */
+  color: #0d6efd;
+  }
+  
+
+
+  .btn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+  }
+  
+  
+  
+  
+  
+  
+  
+  input[value="Login"],[value="Sign Up"]{
+  outline: none;
+  border: none;
+  width: 25em;
+  height: 2em;
+  }
+  
+    
+  
